@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "slug": "payhub",
+  "provider": "PayHub",
+  "providerUrl": "https://github.com/PayHubskill/payhub",
+  "logo": "logo.png",
+  "setup": [
+    "Install the skill in your Bankr agent",
+    "Configure your payment token (contract address + symbol)",
+    "Start creating and managing tasks through chat"
+  ],
+  "install": {
+    "type": "external",
+    "provider": "PayHub",
+    "command": "install the payhub skill from https://github.com/PayHubskill/payhub"
+  }
+}
